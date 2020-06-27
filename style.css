@@ -1,0 +1,21 @@
+.keys{
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    grid-template-rows: repeat(5, 90px);
+}
+
+button{
+    font-size: 2rem;
+    border: solid black 1px;
+}
+
+#screen{
+    width: 266px;
+    height: 150px;
+    border: solid black 2px;
+}
+
+p{
+    text-align: right;
+    width: 100%;
+}
