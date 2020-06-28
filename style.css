@@ -13,9 +13,27 @@ button{
     width: 266px;
     height: 150px;
     border: solid black 2px;
+    position: relative;
+    background-color: lightgrey;
+}
+
+.display{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 266px;
+    height: 75px;
+    direction: rtl;
+    white-space: nowrap;
+}
+
+.input{
+    top: 75px;
 }
 
 p{
-    text-align: right;
     width: 100%;
+    font-size: 2rem;
+    overflow: hidden;
+    text-align: right;
 }
